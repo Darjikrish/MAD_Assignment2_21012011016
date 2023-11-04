@@ -93,7 +93,10 @@ Enjoy quick and hassle-free currency conversion!
 
 ## Screenshots
 
-Include screenshots of your Currency Converter Calculator app in action here.
+<img src="https://github.com/Darjikrish/MAD_Assignment2_21012011016/assets/98751081/7af3de4f-ce89-479f-b32d-2bd4cf16414f" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="https://github.com/Darjikrish/MAD_Assignment2_21012011016/assets/98751081/9c605b5f-adaf-4ca7-99cf-297bfbcae0e2
+" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="https://github.com/Darjikrish/MAD_Assignment2_21012011016/assets/98751081/01483c7f-d5ac-44e0-9ec0-966fec94aee7" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
 ## License
 
