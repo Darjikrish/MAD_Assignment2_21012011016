@@ -5,19 +5,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5"
+    android:background="@drawable/gradient_background"
+
     android:orientation="vertical"
+    android:gravity="center"
     android:padding="16dp"
+
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         app:cardBackgroundColor="#FFFFFF"
         app:cardElevation="4dp"
-        app:cardCornerRadius="8dp"
+        app:cardCornerRadius="20dp"
         app:cardUseCompatPadding="true">
 
         <LinearLayout
@@ -32,26 +36,34 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp"
                 android:text="Currency Converter Calculator"
-                android:textSize="24dp"
+                android:textSize="20dp"
                 android:textColor="#007ACC"
                 android:textStyle="bold" />
 
             <Spinner
                 android:id="@+id/sourceCurrencySpinner"
-                android:layout_width="match_parent"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
                 android:layout_height="wrap_content"
+                android:background="@drawable/gradient_background"
                 android:layout_marginTop="16dp" />
 
             <Spinner
                 android:id="@+id/targetCurrencySpinner"
-                android:layout_width="match_parent"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
                 android:layout_height="wrap_content"
+                android:background="@drawable/gradient_background"
                 android:layout_marginTop="16dp" />
 
             <EditText
                 android:id="@+id/amountEditText"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:textColor="#4CAF50"
+                android:textColorHint="#4CAF50"
                 android:layout_marginTop="16dp"
                 android:hint="Enter amount" />
 
@@ -62,17 +74,17 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp"
                 android:text="Convert"
-                android:background="#007ACC"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/resultTextView"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:textColor="#4CAF50"
                 android:layout_marginTop="16dp"
-                android:textSize="16dp"
+                android:textSize="18dp"
                 android:textStyle="bold"
                 />
         </LinearLayout>
